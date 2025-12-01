@@ -28,6 +28,6 @@ Databases: MySQL, MongoDB
 🔗 Connect with Me
 
 LinkedIn: https://www.linkedin.com/in/pushpendrayadav2011/
+
 portfolio: https://www.pushpendra.dev/
-⭐️ Feel free to check out my repositories and drop a star if you find something helpful!
 
