@@ -10,7 +10,7 @@ Welcome to my GitHub profile! I'm passionate about building, breaking, and learn
 
 👯 I’m looking to collaborate on React JS, React Native, Node JS.
 
-💬 Ask me about Web Development, JavaScript, or anything tech!
+💬 Ask me about Web Development, JavaScript, or anything tech.
 
 📫 How to reach me: pushpendra.y2011@gmail.com
 
