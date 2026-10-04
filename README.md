@@ -6,8 +6,6 @@ Welcome to my GitHub profile! I'm passionate about building, breaking, and learn
 
 🔭 I’m currently working on some full stack ideas related to perfume demand/supply + meditation app.
 
-🌱 I’m learning React native
-
 👯 I’m looking to collaborate on React JS, React Native, Node JS.
 
 💬 Ask me about Web Development, JavaScript, or anything tech.
