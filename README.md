@@ -19,7 +19,7 @@ Staff-level frontend engineer with ~12 years of building web products. I work on
 
 I contribute to UI libraries, state managers, routers and design tools: accessibility, correctness and API work, each with a root cause, a failing test and a reproduction.
 
-**Merged**
+**Recently Merged**
 
 - **[react-resizable-panels](https://github.com/bvaughn/react-resizable-panels)**: `vh` / `vw` / `em` panel sizes now resolve against the panel's own window, so popouts and iframes size correctly ([#777](https://github.com/bvaughn/react-resizable-panels/pull/777), released in 4.15.2)
 - **[Zag.js](https://github.com/chakra-ui/zag)**:
