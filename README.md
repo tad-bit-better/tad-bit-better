@@ -22,6 +22,7 @@ I contribute to UI libraries, state managers, routers and design tools: accessib
 **Recently merged**
 
 - **[react-resizable-panels](https://github.com/bvaughn/react-resizable-panels)**: `vh` / `vw` / `em` panel sizes now resolve against the panel's own window, so popouts and iframes size correctly ([#777](https://github.com/bvaughn/react-resizable-panels/pull/777), released in 4.15.2)
+- **[Oat](https://github.com/knadh/oat)**: fixed the dropdown stealing focus from an element clicked outside the menu ([#192](https://github.com/knadh/oat/pull/192))
 - **[Zag.js](https://github.com/chakra-ui/zag)**:
   - ToC auto-scroll no longer interrupts the smooth scroll to a heading ([#3542](https://github.com/chakra-ui/zag/pull/3542))
   - Splitter `aria-orientation` now matches the separator ([#3553](https://github.com/chakra-ui/zag/pull/3553))
@@ -35,13 +36,15 @@ I contribute to UI libraries, state managers, routers and design tools: accessib
 
 **In review**
 
+- **[Redux Toolkit](https://github.com/reduxjs/redux-toolkit)**: `fetchBaseQuery` dropped an explicit `content-type` on binary uploads (`ArrayBuffer`, `Uint8Array`, `Blob`), breaking e.g. presigned S3 uploads ([#5479](https://github.com/reduxjs/redux-toolkit/pull/5479))
+- **[Preact](https://github.com/preactjs/preact)**: `preact/compat` now selects options inside an `<optgroup>` for `<select defaultValue>` and `multiple` values, matching React ([#5341](https://github.com/preactjs/preact/pull/5341))
+- **[react-resizable-panels](https://github.com/bvaughn/react-resizable-panels)**: separators no longer get stuck in their hover state over iframes in popout windows (approved, [#778](https://github.com/bvaughn/react-resizable-panels/pull/778))
 - **[Jotai](https://github.com/pmndrs/jotai)**: `freezeAtom` no longer crashes on circular references or typed arrays; the maintainer opened the PR from my branch ([#3383](https://github.com/pmndrs/jotai/pull/3383))
 - **[Excalidraw](https://github.com/excalidraw/excalidraw)**: links to other sites (`//host`, look-alike hosts) no longer open in the editor's tab ([#12482](https://github.com/excalidraw/excalidraw/pull/12482))
 - **[TanStack Router](https://github.com/TanStack/router)**: `createMemoryHistory` ignored `initialIndex: 0` and started on the last entry ([#8828](https://github.com/TanStack/router/pull/8828))
 - **[Floating UI](https://github.com/floating-ui/floating-ui)**: typeahead skipped the first item after a key with no match ([#3536](https://github.com/floating-ui/floating-ui/pull/3536)); reported items with duplicate labels being unreachable ([#3538](https://github.com/floating-ui/floating-ui/issues/3538))
-- **[Matita](https://github.com/matita-dev/icons)**: a `rough` option, from today's pencil to crayon-rough, planned with the maintainer for 0.6.0 ([#22](https://github.com/matita-dev/icons/issues/22))
+- **[Matita](https://github.com/matita-dev/icons)**: a `rough` option that takes the pencil variant toward crayon, planned with the maintainer for 0.6.0 ([#31](https://github.com/matita-dev/icons/pull/31))
 - **[Material UI](https://github.com/mui/material-ui)**: keep focus when `loading` is set on Button / IconButton ([#49540](https://github.com/mui/material-ui/pull/49540)), now part of a wider discussion on how loading buttons should behave
-- **[Oat](https://github.com/knadh/oat)**: dropdown no longer steals focus from an element clicked outside the menu ([#192](https://github.com/knadh/oat/pull/192))
 - **[Storybook](https://github.com/storybookjs/storybook)**: reported the sidebar search using the outdated ARIA 1.1 combobox pattern, with a tested fix ([#37030](https://github.com/storybookjs/storybook/issues/37030))
 
 ## 🛠️ Stack
